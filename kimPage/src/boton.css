@@ -1,0 +1,41 @@
+.contenedorPrincipalBoton {
+    border-radius: 50px; /* Mantiene un borde redondeado */
+    border: 2px rgba(0, 0, 0, 0.5); /* Define el borde */
+    background-image: url("fondoKim.png");
+    background-size: cover;
+    background-position: center;
+    width: 10vw; /* Proporción relativa al ancho de la ventana */
+    height: 4vh; /* Proporción relativa a la altura de la ventana */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    /* Asegura que mantenga la relación de aspecto */
+    aspect-ratio: 5 / 2; /* Relación de aspecto del botón */
+  }
+  
+  h3 {
+    color: #eee;
+    margin: 0;
+  }
+  
+  /* Ajustes responsivos para pantallas más pequeñas */
+  @media (max-width: 1200px) {
+    .contenedorPrincipalBoton {
+      width: 30vw; /* Botón más ancho en dispositivos móviles */
+      height: 4vh; /* Mantiene la proporción gracias al aspect-ratio */
+      font-size: 1rem; /* Escala el texto */
+    }
+  
+    h3 {
+      font-size: 0.9rem; /* Reduce el tamaño del texto en móviles */
+    }
+  }
+  .contenedorPrincipalBoton:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    transition-duration: 1s;
+  
+  }
