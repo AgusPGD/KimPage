@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CardTablon from './CardTablon'
 import CardPopUp from './CardPopUp'
-import BotonCarta from './botonCarta'
+import BotonCarta from './BotonCarta'
 import * as ReactDOM from 'react-dom'
 import BotonWhatsapp from './BotonWhatsapp'
 function App() {
