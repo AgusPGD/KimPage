@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import textura from "./TEXTURANOBORRAR.jpg"
+import textura from "/src/assets/TEXTURANOBORRAR.jpg"
 import CardPopUp from "./CardPopUp";
 import * as ReactDOM from 'react-dom/client'
 

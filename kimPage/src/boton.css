@@ -1,7 +1,6 @@
 .contenedorPrincipalBoton {
     border-radius: 50px; /* Mantiene un borde redondeado */
     border: 2px rgba(0, 0, 0, 0.5); /* Define el borde */
-    background-image: url("fondoKim.png");
     background-size: cover;
     background-position: center;
     width: 10vw; /* Proporción relativa al ancho de la ventana */

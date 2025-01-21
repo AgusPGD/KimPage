@@ -4,7 +4,7 @@
   }
   
   .contenedorTexto::-webkit-scrollbar-track {
-    background-image: url(./TEXTURANOBORRAR.jpg); /* Textura para el track */
+    background-image: url(/src/assets/TEXTURANOBORRAR.png); /* Textura para el track */
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -13,7 +13,7 @@
   }
   
   .contenedorTexto::-webkit-scrollbar-thumb {
-    background-image: url(./TEXTURANOBORRAR.jpg); /* Textura para el pulgar */
+    background-image: url(/src/assets/TEXTURANOBORRAR.png); /* Textura para el pulgar */
     background-size: cover;
     background-position: center;
     border-radius: 5px;
