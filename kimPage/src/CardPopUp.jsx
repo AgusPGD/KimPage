@@ -8,6 +8,7 @@ function CardPopUp(props) {
     contenedorPrincipal: {
       width: "90%",
       height: "auto",
+      maxWidth: "700px",
       borderRadius: "5px",
       boxShadow: "0px 0px 5px #222",
       display: "flex",
